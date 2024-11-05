@@ -1,6 +1,6 @@
 <?php
   class Producto {
-    public $producto;
+    public $idProducto;
     public $nombre;
     public $descripcion;
     public $tipo;

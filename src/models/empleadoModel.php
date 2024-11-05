@@ -1,5 +1,6 @@
 <?php
   class Empleado {
+    public $idempleado;
     public $nombre;
     public $apaterno;
     public $amaterno;
