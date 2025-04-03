@@ -15,7 +15,7 @@ const borrarProducto = async (id) => {
     }
     const res = await fetch(apiUrl + '/productos', {
       method: 'DELETE',
-      body: JSON.stringify(send)
+        body: JSON.stringify(send)
     })
     const borrado = await res.json()
     if (borrado && borrado.mensaje && borrado.mensaje === 'Producto Borrado'){
